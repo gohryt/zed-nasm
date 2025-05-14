@@ -1,0 +1,15 @@
+id = "nasm"
+name = "nasm"
+version = "0.1.0"
+schema_version = 1
+authors = ["Alexander Kosachev <kosachev_alex@mail.ru>"]
+description = "NASM support."
+repository = "https://github.com/gohryt/zed-nasm"
+
+[language_servers.asm-lsp]
+name = "asm-lsp"
+languages = ["nasm"]
+
+[grammars.asm]
+repository = "https://github.com/RubixDev/tree-sitter-asm"
+commit = "04962e15f6b464cf1d75eada59506dc25090e186"
